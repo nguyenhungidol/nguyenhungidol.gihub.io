@@ -1,0 +1,73 @@
+.box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    background-color: cyan;
+    align-items:center;
+    justify-content: center;
+}
+/* padding */
+.box1 {
+    background-color: darkblue;
+    padding: 10px;
+}
+.box2 {
+    background-color: darkcyan;
+    padding: 20px 25px;
+    /* tren duoi 20 phai trai 25 */
+}
+.box3 {
+    background-color: darkgoldenrod;
+    padding: 5px 10px 15px 20px;
+    /* thep thu tu tren phai duoi trai */
+}
+.box4 {
+    background-color: darkgreen;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 25px;
+    /* theo tung phia */
+}
+/* Border */
+.box5 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkkhaki;
+}
+.box6 {
+border-left-width:0;
+border-right-width:0;
+border-top-width:5px;
+border-bottom-width:0;
+border-style: dotted;
+background-color: darkorchid;
+}
+/* Co nhieu cac style khac nhau */
+/* margin */
+.box7 {
+    background-color: darkred;
+    margin: 15px;
+}
+.box8 {
+    background-color: deeppink;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+}
+.box9 {
+background-color: dimgrey;
+margin: 15px 55px 25px;
+/* tren phai trai duoi */
+}
+/*box-sizing  */
+.box10 {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 5px solid;
+    box-sizing: border-box;
+    /* tinh toan sao cho kich thuoc k vuot qua ban dau */
+}
